@@ -43,8 +43,8 @@ h1{
 }
 .crn3{
     position: absolute;
-    top:151%;
-    left: 28.2%;
+    top:950px;
+    left: 380px;
 }
 .grp1{
     width: 80%;
@@ -142,6 +142,111 @@ ol li:before {
     background-position: 5% 10%;
 }
 /* media */
-@media (max-width: 991px){
-
+@media screen and (min-width: 1280px){
+    .crn1{
+        left: 280px;
+    }
+    .crn2{
+        left: 900px;
+    }
+    .crn3{
+        left: 348px;
+    }
+    
+}
+@media screen and (min-width: 1400px){
+    .crn2{
+        left: 921px;
+    }
+    .crn2{
+        top:928px;
+        left: 920px;
+    }
+}
+@media screen and (min-width: 1600px){
+    .crn1{
+        left: 990px;
+    }
+    .crn2{
+        left: 950px;
+    }
+}
+@media screen and (min-width: 992px){
+    .crn1{
+        left: 375px;
+    }
+    .crn2{
+        left: 950px;
+    }
+    .crn3{
+        left: 382px;
+    }
+}
+@media only screen and (max-width: 600px){
+    body{
+        overflow: hidden;
+    }
+    h1{
+        margin-top: 20px;
+    }
+    .crn1{
+        left: 0px;
+    }
+    .crn2{
+        left: 360px;
+        top: 315px;
+    }
+    .crn3{
+        display: none;
+    }
+    ol li:before{
+        left: 0px;
+        width: 45px;
+        height: 45px;
+    }
+    .bkg1 p{
+        margin-left: 55px;
+        font-size: 22px;
+    }
+    .grp1{
+        width: 55%;
+        margin: 0;
+    }
+    .grp2{
+        width: 55%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .grp3{
+        width: 90%;
+    }
+    .inner2 li::before{
+        margin-left:-58%;
+    }
+    .inner{
+        border-right: 2px dashed rgba(255, 255, 255, 0.5);
+        width: auto;
+    }
+    .inner2{
+        border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+        border-bottom-left-radius: 7px;
+        width: auto;
+    }
+    .bkg1, .bkg2, .bkg3{
+        background-image: none;
+    }
+    .bkg2 p{
+        margin-left: 60px;
+        font-size: 22px;
+    } 
+    .inner3{
+        width: auto;
+    }
+    .inner3 li::before{
+        left: -45%;
+    }
+    .bkg3 p{
+        margin-left: 0px;
+        font-size: 22px;
+    }
 }
